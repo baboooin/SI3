@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Simple Income</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="dialog_error_title">Error</string>
+    <string name="dialog_retry">Retry</string>
+    <string name="dialog_exit">Exit</string>
+    <string name="refresh">Refresh</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Сonfirm</string>
+    <string name="error">Error</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="del_title">Delete</string>
+    <string name="del_body">You realy DELETE this document?</string>
+    <string name="New">New</string>
+    <string name="confirm_title">Confirm</string>
+    <string name="confirm_body">Realy all scan ???</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="ip_address_string">ip address</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_error">IP address error</string>
+    <string name="notasked">Didn\'t order</string>
+    <string name="enableorders">Support Orders</string>
+    <string name="weOrder">We order</string>
+    <string name="separate">Separate document</string>
+    <string name="separate_title">Separate Document</string>
+    <string name="separate_body">Separate positions on different documents</string>
+</resources>

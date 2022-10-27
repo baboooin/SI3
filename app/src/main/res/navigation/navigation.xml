@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/docListFragment">
+
+    <fragment
+        android:id="@+id/docListFragment"
+        android:name="com.babooin.si3.DocListFragment"
+        android:label="fragment_doc_list"
+        tools:layout="@layout/fragment_doc_list" >
+        <action
+            android:id="@+id/action_docListFragment_to_positionsFragment"
+            app:destination="@id/positionsFragment" />
+        <action
+            android:id="@+id/action_docListFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/positionsFragment"
+        android:name="com.babooin.si3.PositionsFragment"
+        android:label="fragment_positions"
+        tools:layout="@layout/fragment_positions" >
+        <action
+            android:id="@+id/action_positionsFragment_to_docListFragment"
+            app:destination="@id/docListFragment" />
+        <action
+            android:id="@+id/action_positionsFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.babooin.si3.editFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" >
+        <action
+            android:id="@+id/action_editFragment_to_positionsFragment"
+            app:destination="@id/positionsFragment"
+            app:enterAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.babooin.si3.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_docListFragment"
+            app:destination="@id/docListFragment" />
+    </fragment>
+</navigation>

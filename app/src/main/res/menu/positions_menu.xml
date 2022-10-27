@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:id="@+id/group0">
+<item
+    app:showAsAction="always"
+    android:id="@+id/refresh_positions_menuitem"
+    android:icon="@drawable/ic_refresh"
+    android:title="@string/refresh"
+    />
+    </group>
+
+    <group android:id="@+id/group1">
+    <item
+        android:id="@+id/add_doc_separate"
+        android:icon="@drawable/ic_new_document"
+        android:title="@string/separate"
+        />
+    </group>
+
+
+    <group android:id="@+id/group2">
+        <item
+            android:id="@+id/confirm_positions_menuitem"
+            android:title="@string/confirm"
+            />
+    </group>
+
+
+
+</menu>

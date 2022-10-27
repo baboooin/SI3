@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Приход (слепой)</string>
+    <string name="dialog_error_title">Ошибка</string>
+    <string name="dialog_retry">Повторить</string>
+    <string name="dialog_exit">Выход</string>
+    <string name="refresh">Обновить</string>
+    <string name="delete">Удалить</string>
+    <string name="confirm">Провести</string>
+    <string name="error">ошибка</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="del_title">Удалить</string>
+    <string name="del_body">Вы хотите УДАЛИТЬ этот документ?</string>
+    <string name="New">Новый</string>
+    <string name="confirm_title">Провести</string>
+    <string name="confirm_body">Вы хотите ПОДТВЕРДИТЬ документ?</string>
+    <string name="ip_address_string">ip адрес</string>
+    <string name="settings_menu_item">Настройки</string>
+    <string name="settings_error">Ошибка в адресе сервера</string>
+    <string name="notasked">НЕ ЗАКАЗЫВАЛИ</string>
+    <string name="enableorders">Показывать Заявки</string>
+    <string name="weOrder">"Заказывали "</string>
+    <string name="separate">Разделить документ</string>
+    <string name="separate_title">Разделить</string>
+    <string name="separate_body">Разделить приход на документы по принятому</string>
+</resources>

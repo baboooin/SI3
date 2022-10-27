@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/settings_text_input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            style="@style/Widget.Design.TextInputLayout"
+            >
+
+            <EditText
+                android:id="@+id/server_ip_address"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:hint="@string/ip_address_string"
+                android:inputType="textUri"
+                android:lines="1"
+                android:maxLines="1"
+                android:tooltipText="@string/ip_address_string" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <!--<com.google.android.material.textfield.TextInputLayout-->
+        <!--    android:layout_width="match_parent"-->
+        <!--    android:layout_height="wrap_content"-->
+        <!--    />-->
+
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/enableorders"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="10dp"
+            android:buttonTint="@color/purple_500"
+            android:text="@string/enableorders" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</FrameLayout>
